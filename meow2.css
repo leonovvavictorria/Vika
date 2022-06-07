@@ -12,20 +12,7 @@ img {
   height: 250px;
 }
 
-.meow {
-  color: red;
-}
-
-/* Стили для конкретных ID */
-#first {
-  margin: 2px;
-}
-
 /* Стили для классов */
-.awesome {
-  padding: 14px;
-}
-
 .first {
   display: flex;
   justify-content: center;
