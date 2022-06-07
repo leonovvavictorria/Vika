@@ -22,18 +22,19 @@ h1 {
   padding: 14px;
 }
 
-.First {
+.first {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.Second {
+.second {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.Free {
+
+.free {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,10 +43,12 @@ h1 {
 img {
   height: 250px;
 }
-.Possion {
+
+.possion {
   position: relative;
 }
-.Possion2 {
+
+.possion2 {
   position: absolute;
   height: 50px;
   width: 50px;
