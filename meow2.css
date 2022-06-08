@@ -1,55 +1,45 @@
 /* styles.css */
 
 body {
-    background-color: powderblue;
+  background-color: powderblue;
 }
 
 h1 {
-    color: blue;
+  color: blue;
 }
 
-.meow {
-    color: red;
-}
-
-/* Стили для конкретных ID */
-#first {
-    margin: 2px;
+img {
+  height: 250px;
 }
 
 /* Стили для классов */
-.awesome {
-    padding: 14px;
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.First {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.Second {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.free {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
-.Free {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
+
+.possion {
+  position: relative;
 }
-img {
-    height: 250px;
-    
-}
-.Possion{
-    position: relative;
-}
-.Possion2{
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    top: calc(50% - 25px);
-    left: calc(50% - 25px);
+
+.possion2 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
 }
