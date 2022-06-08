@@ -1,45 +1,49 @@
 /* styles.css */
 
 body {
-  background-color: powderblue;
+    background-color: powderblue;
 }
 
 h1 {
-  color: blue;
+    color: blue;
 }
 
 img {
-  height: 250px;
+    height: 250px;
 }
 
 /* Стили для классов */
 .first {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .second {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .free {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
 
 .possion {
-  position: relative;
+    position: relative;
 }
 
 .possion2 {
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  top: calc(50% - 25px);
-  left: calc(50% - 25px);
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    opacity: 0;
+    cursor: pointer;
+    display: inline;
+    transition: none;
 }
