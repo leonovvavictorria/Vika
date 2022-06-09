@@ -17,7 +17,7 @@ const form0 = document.getElementById('form0')
 function stopDefAction(e) {
   e.preventDefault()
   const name = document.getElementsByName('text')
-  const data = document.getElementsByName('date')
+  const data = document.getElementsByName('data')
   alert('Ваше имя: ' + name[0].value + '\nВаша дата рождения: ' + data[0].value)
 }
 
