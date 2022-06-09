@@ -1,11 +1,24 @@
-const loves = [...document.getElementsByClassName('possion2')]
-console.log(loves)
-function initElement() {
-    i ^= 1
-    image.style.display = s[i];
-    setTimeout(initElement, t[i]);
+const containers = [...document.getElementsByClassName('possion')]
+containers.map((container, i) => {
+  const imgs = [...container.getElementsByTagName('img')]
+
+  imgs.map((img) => {
+    img.onclick = () => {
+      imgs[1].style.opacity = 1
+      setTimeout(() => {
+        imgs[1].style.opacity = 0
+      }, 1000)
+    }
+  })
+})
+
+const form0 = document.getElementById('form0')
+
+function stopDefAction(e) {
+  e.preventDefault()
+  const name = document.getElementsByName('text')
+  const data = document.getElementsByName('date')
+  alert('Ваше имя: ' + name[0].value + '\nВаша дата рождения: ' + data[0].value)
 }
-loves[0].onclick = () => { loves[0].style.opacity = 1 }
-loves[1].onclick = () => { loves[1].style.opacity = 1 }
-loves[2].onclick = () => { loves[2].style.opacity = 1 }
-loves[3].onclick = () => { loves[3].style.opacity = 1 }
+
+form0.onsubmit = stopDefAction
