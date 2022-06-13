@@ -1,7 +1,7 @@
 /* styles.css */
 
 body {
-  background-color: powderblue;
+  background: linear-gradient(rgb(168, 10, 110), rgb(213, 120, 194));
 }
 
 h1 {
@@ -16,13 +16,13 @@ img {
 .first {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .second {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .free {
@@ -49,3 +49,9 @@ img {
   transition: none;
 }
 
+/* .text-info alert alert-danger,
+badge rounded-pill alert alert-danger {
+  padding-bottom: 0%;
+  margin: 0%;
+  margin-bottom: 0%;
+} */
